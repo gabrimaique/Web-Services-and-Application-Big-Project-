@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:sarab%40123@localhost/pubs_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:gabriel%40123@localhost/pubs_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
