@@ -1,5 +1,5 @@
-# Flask Pubs Management Application
-
+# Web Services and Application
+Big Project 
 This Flask application manages a database of pubs, enabling features such as adding, updating, and deleting pub entries through a web interface and an API.
 
 ## Initial Setup
